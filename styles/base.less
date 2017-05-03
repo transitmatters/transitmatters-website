@@ -9,7 +9,7 @@
 @pageWidth: 1020px;
 @pageWidthNarrow: 700px;
 @galleryHeight: 600px;
-
+@logoPaddingSize: 10px;
 
 // Mixins
 .max-letter-spacing (@spacing,@max) when (@spacing > @max) {
@@ -599,6 +599,7 @@ li.filter {
     #logoWrapper,
     #logoImage {
       width: @logoContainerWidth;
+      padding: @logoPaddingSize;
     }
     #siteTitleWrapper,
     #siteTitle {
